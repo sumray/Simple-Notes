@@ -4,3 +4,7 @@ server:
 spring:
   application:
     name: core-user
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/core-user?useUnicode=true&characterEncoding=utf8&useSSL=true&serverTimezone=UTC
+    username: root
+    password: root
