@@ -1,5 +1,7 @@
 package com.simplenotes.user;
 
+import org.springframework.cloud.openfeign.FeignClient;
+
 public class User {
 	private Long id;
 	private String username;

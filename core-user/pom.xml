@@ -11,4 +11,11 @@
 
     <artifactId>core-user</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.simple-notes</groupId>
+            <artifactId>api-user</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 </project>
