@@ -9,3 +9,11 @@ spring:
     username: root
     password: root
     driver-class-name: com.mysql.jdbc.Driver
+
+eureka:
+  instance:
+    hostname: 127.0.0.1
+  client:
+    service-url:
+      defaultZone:
+        http://${eureka.instance.hostname}:10001/eureka/
