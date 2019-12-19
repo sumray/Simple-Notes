@@ -5,6 +5,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 
 @FeignClient("core-user")
 public interface LoginApi {
-	@PostMapping("/user/submit")
+	@PostMapping("/submit")
 	LoginResult submitMsg(LoginCondition condition);
 }
