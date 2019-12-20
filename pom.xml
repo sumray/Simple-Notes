@@ -11,6 +11,8 @@
         <module>core-parent</module>
         <module>cloud-eureka</module>
         <module>cloud-gateway</module>
+	    <module>cloud-mvc</module>
+	    <module>api-base</module>
     </modules>
 
     <groupId>com.simple-notes</groupId>
