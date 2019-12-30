@@ -13,6 +13,7 @@
         <module>cloud-gateway</module>
 	    <module>cloud-mvc</module>
 	    <module>api-base</module>
+        <module>cloud-cache</module>
     </modules>
 
     <groupId>com.simple-notes</groupId>
