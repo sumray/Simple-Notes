@@ -9,6 +9,18 @@ spring:
     username: root
     password: root
     driver-class-name: com.mysql.jdbc.Driver
+  mail:
+    host: smtp.126.com
+    username: nueiaaa@126.com
+    password: zq2536999m
+    default-encoding: UTF-8
+    properties: 
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
 
 eureka:
   instance:
