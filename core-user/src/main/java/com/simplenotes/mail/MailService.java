@@ -25,7 +25,7 @@ public class MailService {
 
 	public void sendEmail(String to) {
 		String code = ActiveCodeUtils.getActiveCode();
-		cacheProvider.set("register-mail", to, code);
+		cacheProvider.set("register-mail", to, code, 60 * 10);
 		sendMail(to,"激活账号","简单记账号注册码：" + code);
 	}
 
