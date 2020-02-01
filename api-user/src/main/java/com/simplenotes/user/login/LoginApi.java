@@ -8,5 +8,5 @@ import org.springframework.web.bind.annotation.PostMapping;
 @FeignClient("core-user")
 public interface LoginApi {
 	@PostMapping("/submit")
-	ResultMessage submitMsg();
+	ResultMessage submitMsg(User user);
 }
